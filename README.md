@@ -4,6 +4,10 @@ Projeto prático de automação de testes utilizando Selenium WebDriver com Pyth
 
 ---
 
+### amazon_search_test.py
+
+Teste automatizado de busca de produtos na Amazon utilizando Selenium WebDriver.
+
 # 🎯 Objetivo
 
 Automatizar o fluxo de pesquisa de produtos na Amazon validando o comportamento da aplicação.
@@ -22,6 +26,18 @@ Automatizar o fluxo de pesquisa de produtos na Amazon validando o comportamento 
 
 ---
 
+### amazon_deals_test.py
+
+Teste automatizado da página de ofertas da Amazon.
+
+#### Validações:
+
+✅ Verificação da URL  
+✅ Validação do título da página  
+✅ Verificação de conteúdo da página
+
+---
+
 # 🛠️ Tecnologias utilizadas
 
 - Python
@@ -37,6 +53,8 @@ Automatizar o fluxo de pesquisa de produtos na Amazon validando o comportamento 
 - Selenium
 - Localização de elementos
 - ID Locator
+- XPath
+- CSS Selector
 - WebDriverWait
 - Expected Conditions
 - Automação Web
@@ -55,12 +73,16 @@ Automatizar o fluxo de pesquisa de produtos na Amazon validando o comportamento 
 
 ---
 
-# 📌 Resultado esperado
+# 📂 Estrutura do Projeto
 
-O sistema deve realizar a pesquisa automaticamente e validar se a página carregou corretamente.
-
----
-
-# 🚀 Autor
-
-Carmem Vanessa
+```text
+qa-selenium-amazon-search
+│
+├── amazon_search_test.py
+├── amazon_deals_test.py
+├── README.md
+├── casos_teste.md
+├── evidencias.md
+├── amazon-aberta.png
+├── resultado-pesquisa.png
+└── teste-passou.png
