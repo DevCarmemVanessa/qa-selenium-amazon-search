@@ -44,6 +44,7 @@ Teste automatizado da página de ofertas da Amazon.
 - Selenium WebDriver
 - Microsoft Edge
 - VS Code
+- Pytest
 
 ---
 
@@ -59,6 +60,8 @@ Teste automatizado da página de ofertas da Amazon.
 - Expected Conditions
 - Automação Web
 - Validação automatizada
+- - Pytest
+- Assertivas automatizadas
 
 ---
 
